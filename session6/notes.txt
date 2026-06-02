@@ -1,0 +1,80 @@
+List Methods
+append()   → add one item
+extend()   → add multiple items
+insert()   → add at position
+remove()   → remove by value
+pop()      → remove by index
+index()    → find position
+count()    → count occurrences
+reverse()  → reverse list
+copy()     → duplicate list
+Built-in Functions
+len()      → length
+max()      → largest value
+sum()      → total
+sorted()   → sorted copy
+del        → delete item
+Tuple
+Immutable (cannot change directly).
+tuple() → convert to tuple.
+list() → convert to list.
+Packing / Unpacking:
+name,score,eligible=items
+Dictionary
+
+Stores data in key:value form.
+
+Methods:
+
+keys()        → all keys
+values()      → all values
+items()       → key-value pairs
+update()      → modify/add data
+pop()         → remove key
+setdefault()  → get/add default value
+Nested Dictionary
+
+Dictionary inside dictionary.
+
+flix_movies['drishyam3']
+Conditional Statements
+if
+elif
+else
+
+Used for decision making.
+
+Logical Operators
+and  → both true
+or   → one true
+Membership Operator
+in
+not in
+Average Calculation
+avg=sum(values)/len(values)
+Discount Example
+
+Used:
+
+list
+input
+sum()
+if-elif-else
+Ternary Operator (One-line if)
+a if condition else b
+
+Example:
+
+result="even" if x%2==0 else "odd"
+Important Errors
+
+❌ printf() → wrong in Python
+✅ print()
+
+❌
+
+if color=='red' or 'Red'
+
+✅
+
+if color=='red' or color=='Red'

@@ -1,0 +1,89 @@
+Python Basics Notes
+1. Printing Output
+print("hello") → prints text.
+print(90) → prints numbers.
+sep= → changes separator.
+print("a","b",sep="//")
+2. Variables
+
+Used to store values.
+
+name="Rizwin"
+age="21"
+3. f-string Formatting
+
+Insert variables into text.
+
+print(f"Hello {name}")
+4. Input & Type Conversion
+
+Take user input.
+
+name=input("Enter name")
+count=int(input("Count"))
+cgpa=float(input("CGPA"))
+input() → takes input.
+int() → converts to integer.
+float() → converts to decimal.
+5. String Functions
+len(text)              # length
+text[1]                # indexing
+text[-1]               # negative index
+text[0:12:2]           # slicing
+text.split()           # split words
+text.capitalize()      # first letter capital
+text.strip()           # remove spaces
+text.isspace()         # check spaces
+text.partition("py")   # divide string
+6. Membership Operators
+"python" in text
+"java" not in text
+
+Checks presence/absence of text.
+
+7. Average Calculation
+
+Use formula:
+
+avg=(a+b+c)/3
+8. Lists
+
+Store multiple values.
+
+profile=["rizwin","21"]
+
+List functions:
+
+profile.append("palakkad")
+
+append() → adds item.
+
+9. Loops
+
+Repeat code multiple times.
+
+for i in range(n):
+10. Conditional Statements
+
+Decision making.
+
+if(per<=budget):
+    print("Affordable")
+else:
+    print("Not affordable")
+11. Expense Calculation Example
+
+Used variables, arithmetic operations and condition checking.
+
+total=fuel+food+toll
+per=total/friends
+12. Important Note
+
+Variable names cannot start with numbers.
+
+❌ 2fuel_price=110
+✅ fuel_price=110
+
+
+
+

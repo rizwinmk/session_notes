@@ -1,0 +1,133 @@
+Lambda Function
+
+Small one-line anonymous function.
+
+lambda arguments : expression
+
+Examples:
+
+square=lambda n:n*n
+add=lambda a,b:a+b
+Conditional Lambda
+
+Uses one-line if else.
+
+lambda mark:"pass" if mark>35 else "fail"
+map()
+
+Applies function to every item.
+
+map(function,list)
+
+Examples:
+
+square numbers
+odd/even check
+filter()
+
+Filters items based on condition.
+
+filter(function,list)
+
+Example:
+
+even numbers only
+zip()
+
+Combines multiple lists.
+
+zip(list1,list2)
+List Comprehension
+
+Short way to create list.
+
+[num*num for num in numbers]
+OOP (Object Oriented Programming)
+Class & Object
+
+Class → blueprint
+Object → instance of class.
+
+class Employee:
+emp1=Employee()
+Constructor (__init__)
+
+Automatically runs during object creation.
+
+def __init__(self,name,id):
+
+self → refers to current object.
+
+Methods
+
+Functions inside class.
+
+display()
+deposit()
+withdraw()
+Encapsulation Example
+
+BankAccount class stores:
+
+owner
+balance
+account number
+
+Methods:
+
+deposit()
+withdraw()
+balance_amount()
+accdetails()
+Inheritance
+
+Child class gets properties from parent class.
+
+class Savings_account(BankAccount)
+
+Used:
+
+super() → access parent methods.
+Method Overriding
+
+Child changes parent method behavior.
+
+Example:
+
+withdraw()
+Multilevel Inheritance
+
+Inheritance chain.
+
+BankAccount
+   ↓
+Savings_account
+   ↓
+Senior_citizen
+Multiple Inheritance
+
+One class inherits from multiple parents.
+
+Example:
+
+class Phone:
+    calls(),messages()
+
+class Camera:
+    photo(),video()
+
+class Smartphone(Phone,Camera)
+
+Smartphone gets features from both classes.
+
+Important Error
+
+In Savings_account:
+
+❌ parameter order mismatch.
+
+Parent:
+
+(owner,balance,accno)
+
+super() should match parent order.

@@ -1,0 +1,15 @@
+Windows Shorcuts
+
+- windows+x - power user
+- alt+tab - switch tabs
+- windows + r - run dialog (useful in situations where the pc is in safe mode)
+- win+H - speech to text
+- win + . -  emojis
+- shift + arr dn - select line (triple touch pad)
+- 2 fin touch - right click
+- ctrl + k - paste links in docs
+- ctrl + h - find and replace
+- win+accessibility —> keyboard on screen
+- ctrl + shift + T - repoen closed tab
+- ctrl + w - close tab
+-

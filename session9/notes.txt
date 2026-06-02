@@ -1,0 +1,144 @@
+GitHub / Git Notes (Today's Class)
+Git
+
+Version control system used to track code changes.
+
+GitHub
+
+Online platform to store and share Git repositories.
+
+Repository (Repo)
+
+Project folder that stores files + change history.
+
+Create repo:
+
+Local repository → in computer.
+Remote repository → on GitHub.
+Git Configuration
+
+Set username and email.
+
+git config --global user.name "YourName"
+git config --global user.email "yourmail@example.com"
+
+Check config:
+
+git config --list
+Navigation Commands
+
+Current location:
+
+pwd
+
+List files:
+
+ls
+
+Change folder:
+
+cd foldername
+
+Go back:
+
+cd ..
+Initialize Git
+git init
+
+Creates Git repository.
+
+Check Status
+git status
+
+Shows:
+
+tracked files
+untracked files
+staged files
+Add Files
+
+Single file:
+
+git add filename
+
+All files:
+
+git add .
+
+Moves files to staging area.
+
+Commit Changes
+git commit -m "message"
+
+Saves snapshot of changes.
+
+Branch
+
+Create/switch branch.
+
+Check branch:
+
+git branch
+
+Create branch:
+
+git branch dev
+
+Switch branch:
+
+git checkout dev
+
+(or)
+
+git switch dev
+GitHub Notes Repository Practice
+
+You created:
+
+Repository
+Multiple session folders
+notes.txt inside folders.
+
+Example:
+
+DEMO_PROJECT/
+ ├── session1/
+ │    └── notes.txt
+ ├── session2/
+ │    └── notes.txt
+Push to GitHub (basic idea)
+
+Connect remote:
+
+git remote add origin URL
+
+Push code:
+
+git push -u origin main
+Important Idea
+
+Workflow:
+
+Create/Modify File
+       ↓
+git status
+       ↓
+git add .
+       ↓
+git commit -m "message"
+       ↓
+git push
+Common Issue Learned
+
+Problem:
+
+cd Desktop
+No such file or directory
+
+Reason: Already inside ~/Desktop/...
+
+Use:
+
+pwd
+
+to check current folder.
